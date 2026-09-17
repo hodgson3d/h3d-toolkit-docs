@@ -1,4 +1,4 @@
-# Modelling Tools
+# Modeling Tools
 
 Geometry creation and editing tools for common modelling workflows.
 
@@ -33,5 +33,3 @@ A useful example is merging seams together on clothing.
 ## Extrude Border Edge
 
 Extrudes and rotates selected border edges in Blender 5.2+.
-
-[Open the detailed Extrude Border Edge page](extrude-border-edge.md)

@@ -11,23 +11,45 @@ nav:
       - Installation: getting-started/installation.md
       - Interface Overview: getting-started/interface-overview.md
       - Adding Images & GIFs: getting-started/adding-images-and-gifs.md
-  - Object Tools:
-      - Overview: object-tools/index.md
-  - Modelling Tools:
-      - Overview: modelling-tools/index.md
-      - Extrude Border Edge: modelling-tools/extrude-border-edge.md
+  - Tool Overview: tools-overview.md
+  - Navigation:
+      - Overview: navigation-tools/index.md
+  - Lattice Tools:
+      - Overview: lattice-tools/index.md
+  - Shape Key Tools:
+      - Overview: shape-key-tools/index.md
+  - UV Tools:
+      - Overview: uv-tools/index.md
   - Curve Tools:
       - Overview: curve-tools/index.md
       - Curve Deform Verts: curve-tools/curve-deform-verts.md
+  - Material Tools:
+      - Overview: material-tools/index.md
+  - Mesh Tools:
+      - Overview: mesh-tools/index.md
+  - Modelling Tools:
+      - Overview: modelling-tools/index.md
+      - Extrude Border Edge: modelling-tools/extrude-border-edge.md
+  - Modifier Tools:
+      - Overview: modifier-tools/index.md
   - Selection Tools:
       - Overview: selection-tools/index.md
-  - UV Tools:
-      - Overview: uv-tools/index.md
-  - Materials:
-      - Overview: materials/index.md
+  - Mesh Clean Tools:
+      - Overview: mesh-clean-tools/index.md
+  - Sculpt Tools:
+      - Overview: sculpt-tools/index.md
+  - Vertex Group Tools:
+      - Overview: vertex-group-tools/index.md
+  - Baking Tools:
+      - Overview: baking-tools/index.md
+  - Transfer Tools:
+      - Overview: transfer-tools/index.md
+  - Camera Tools:
+      - Overview: camera-tools/index.md
+  - VSE Tools:
+      - Overview: vse-tools/index.md
   - Troubleshooting:
       - FAQ: troubleshooting/faq.md
-  - Page Template: templates/tool-page-template.md
 
 theme:
   name: material

@@ -4,43 +4,42 @@ Welcome to the documentation for **H3D Toolkit**, a collection of modelling, cur
 
 <div class="grid cards" markdown>
 
--   :material-cube-outline:{ .lg .middle } **Modelling Tools**
+-   :material-rocket-launch-outline:{ .lg .middle } **Getting Started**
 
     ---
 
-    Tools for building and editing hard-surface geometry quickly.
+    Installation, interface basics, and how to work with this documentation.
 
-    [:octicons-arrow-right-24: Browse modelling tools](modelling-tools/index.md)
+    [:octicons-arrow-right-24: Getting started](getting-started/installation.md)
+
+-   :material-tools:{ .lg .middle } **Complete Tool Overview**
+
+    ---
+
+    Browse every H3D Toolkit section and the tools currently documented.
+
+    [:octicons-arrow-right-24: Browse all tools](tools-overview.md)
 
 -   :material-vector-curve:{ .lg .middle } **Curve Tools**
 
     ---
 
-    Curve-based modelling and deformation utilities.
+    Curve creation, conversion, pipes and vertex deformation.
 
-    [:octicons-arrow-right-24: Browse curve tools](curve-tools/index.md)
+    [:octicons-arrow-right-24: Curve tools](curve-tools/index.md)
 
--   :material-selection:{ .lg .middle } **Selection & UV**
-
-    ---
-
-    Utilities for faster mesh selection and UV workflows.
-
-    [:octicons-arrow-right-24: Selection tools](selection-tools/index.md)
-
--   :material-help-circle-outline:{ .lg .middle } **Troubleshooting**
+-   :material-wrench-outline:{ .lg .middle } **Modelling Tools**
 
     ---
 
-    Installation help and answers to common questions.
+    Geometry creation and modelling workflow helpers.
 
-    [:octicons-arrow-right-24: Open FAQ](troubleshooting/faq.md)
+    [:octicons-arrow-right-24: Modelling tools](modelling-tools/index.md)
 
 </div>
 
-## New to H3D Toolkit?
+## Adding screenshots and GIFs
 
-Start with the [installation guide](getting-started/installation.md), then take a quick look at the [interface overview](getting-started/interface-overview.md).
+Adding visual examples is simple: upload the file to `docs/assets/images/` or `docs/assets/gifs/`, then reference it from the Markdown page.
 
-!!! tip "Adding screenshots and GIFs is simple"
-    Drop the image or GIF into `docs/assets/images/` or `docs/assets/gifs/`, then add a one-line reference to it in the page. See [Adding Images & GIFs](getting-started/adding-images-and-gifs.md).
+[See the image & GIF guide](getting-started/adding-images-and-gifs.md)

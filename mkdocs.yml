@@ -1,0 +1,72 @@
+site_name: H3D Toolkit Documentation
+site_description: Documentation for H3D Toolkit for Blender
+site_url: https://hodgson3d.github.io/h3d-toolkit-docs/
+repo_url: https://github.com/hodgson3d/h3d-toolkit-docs
+repo_name: hodgson3d/h3d-toolkit-docs
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - Interface Overview: getting-started/interface-overview.md
+      - Adding Images & GIFs: getting-started/adding-images-and-gifs.md
+  - Object Tools:
+      - Overview: object-tools/index.md
+  - Modelling Tools:
+      - Overview: modelling-tools/index.md
+      - Extrude Border Edge: modelling-tools/extrude-border-edge.md
+  - Curve Tools:
+      - Overview: curve-tools/index.md
+      - Curve Deform Verts: curve-tools/curve-deform-verts.md
+  - Selection Tools:
+      - Overview: selection-tools/index.md
+  - UV Tools:
+      - Overview: uv-tools/index.md
+  - Materials:
+      - Overview: materials/index.md
+  - Troubleshooting:
+      - FAQ: troubleshooting/faq.md
+  - Page Template: templates/tool-page-template.md
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright &copy; H3D Toolkit

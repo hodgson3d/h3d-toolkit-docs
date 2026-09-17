@@ -1,0 +1,7 @@
+/* H3D Toolkit documentation helpers */
+.md-typeset img,
+.md-typeset video { border-radius: 8px; }
+.md-typeset .media-center { display: block; margin-left: auto; margin-right: auto; }
+.md-typeset .media-wide { width: min(100%, 1100px); }
+.md-typeset .media-medium { width: min(100%, 760px); }
+.md-typeset .media-small { width: min(100%, 480px); }

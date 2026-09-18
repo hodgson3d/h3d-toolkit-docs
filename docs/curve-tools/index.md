@@ -6,6 +6,8 @@ Curve-based modelling, conversion and deformation utilities.
 
 Adds a Geometry Nodes modifier that allows an edge or curve to be resampled through modifier controls.
 
+![Curve Deform Verts](../assets/gifs/curve-tools/resample-edges-curves.gif)
+
 ## Edge/Curve Pipe
 
 Adds a Geometry Nodes modifier that turns an edge or curve into a tube or pipe.

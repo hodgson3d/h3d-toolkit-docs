@@ -28,7 +28,7 @@ Attempts to make curves with a similar flow use the same curve direction. (Works
 
 ## Smooth Tilt (Gentle)
 
-A more sensitive alternative to Blender's built-in Smooth Tilt operator, designed to provide finer control.
+A more sensitive alternative to Blender's built-in Smooth Tilt operator, designed to provide finer control over softening out the twists in curves.
 
 ## Curve Deform Verts
 

@@ -47,5 +47,5 @@ Converts tube or pipe geometry back into a center curve.
 
 <div style="display: flex; gap: 12px;">
   <img src="../assets/gifs/curve-tools/tube-2-curve.gif" style="width: calc(50% - 6px);">
-  <img src="../assets/gifs/curve-tools/tube-2-curve-tree" style="width: calc(50% - 6px);">
+  <img src="../assets/gifs/curve-tools/tube-2-curve-tree.gif" style="width: calc(50% - 6px);">
 </div>

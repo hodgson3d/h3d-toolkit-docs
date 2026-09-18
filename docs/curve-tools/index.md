@@ -12,6 +12,8 @@ Adds a Geometry Nodes modifier that allows an edge or curve to be resampled thro
 
 Adds a Geometry Nodes modifier that turns an edge or curve into a tube or pipe.
 
+![Edge/Curve Pipe](../assets/images/edge-curve-pipe.png)
+
 The generated pipe includes automatic UVs and can use a custom profile.
 
 ## Separate By Loose Parts

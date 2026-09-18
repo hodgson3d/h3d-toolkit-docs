@@ -6,7 +6,7 @@ Curve-based modelling, conversion and deformation utilities.
 
 Adds a Geometry Nodes modifier that allows an edge or curve to be resampled through modifier controls.
 
-![Curve Deform Verts](../assets/gifs/curve-tools/resample-edges-curves.gif)
+![Curve Deform Verts](../assets/gifs/curve/resample-edges-curves.gif)
 
 ## Edge/Curve Pipe
 
@@ -24,7 +24,7 @@ Separates curves by loose parts, similar to Blender's mesh **Separate by Loose P
 
 Attempts to make curves with a similar flow use the same curve direction. (Works in both edit and object mode)
 
-![Curve Deform Verts](../assets/gifs/curve-tools/align-curve-direction.gif)
+![Curve Deform Verts](../assets/gifs/curve/align-curve-direction.gif)
 
 ## Smooth Tilt (Gentle)
 
@@ -41,13 +41,13 @@ Hotkeys:
 M = Change distribution method
 + / - = Increase/Decrease curve points
 
-![Curve Deform Verts](../assets/gifs/curve-tools/curve-deform-verts.gif)
+![Curve Deform Verts](../assets/gifs/curve/curve-deform-verts.gif)
 
 ## Tube 2 Curve
 
 Converts tube or pipe geometry back into a center curve.
 
 <div style="display: flex; gap: 12px;">
-  <img src="../assets/gifs/curve-tools/tube-2-curve.gif" style="width: calc(50% - 6px);">
-  <img src="../assets/gifs/curve-tools/tube-2-curve-tree.gif" style="width: calc(50% - 6px);">
+  <img src="../assets/gifs/curve/tube-2-curve.gif" style="width: calc(50% - 6px);">
+  <img src="../assets/gifs/curve/tube-2-curve-tree.gif" style="width: calc(50% - 6px);">
 </div>

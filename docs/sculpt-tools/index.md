@@ -1,4 +1,4 @@
-# Sculpt Tools
+# Sculpt
 
 Utilities for working with Multiresolution sculpt workflows.
 

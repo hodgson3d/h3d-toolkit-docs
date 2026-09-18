@@ -1,4 +1,4 @@
-# Curve Tools
+# Curve
 
 Curve-based modelling, conversion and deformation utilities.
 

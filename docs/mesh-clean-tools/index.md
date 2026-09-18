@@ -1,4 +1,4 @@
-# Mesh Clean Tools
+# Mesh Clean
 
 Mesh cleanup and inspection tools.
 

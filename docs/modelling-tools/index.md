@@ -1,4 +1,4 @@
-# Modeling Tools
+# Modelling
 
 Geometry creation and editing tools for common modelling workflows.
 

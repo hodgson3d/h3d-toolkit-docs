@@ -1,4 +1,4 @@
-# Vertex Group Tools
+# Vertex Group
 
 ## Clear Vertex Groups
 

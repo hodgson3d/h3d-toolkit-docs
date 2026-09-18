@@ -1,4 +1,4 @@
-# Material Tools
+# Material
 
 Utilities for cleaning up materials and material slots.
 

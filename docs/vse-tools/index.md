@@ -1,4 +1,4 @@
-# VSE Tools
+# VSE
 
 Utilities for Blender's Video Sequence Editor.
 

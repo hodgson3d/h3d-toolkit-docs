@@ -1,4 +1,4 @@
-# Shape Key Tools
+# Shape Key
 
 ## Create Animated Shape Key
 

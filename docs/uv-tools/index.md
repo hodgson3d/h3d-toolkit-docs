@@ -1,4 +1,4 @@
-# UV Tools
+# UV
 
 Utilities for UV cleanup, debugging, error detection and fast unwrapping.
 

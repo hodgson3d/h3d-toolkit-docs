@@ -1,4 +1,4 @@
-# Selection Tools
+# Selection
 
 Utilities for finding and selecting objects or mesh components based on structure and properties.
 

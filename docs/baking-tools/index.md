@@ -1,4 +1,4 @@
-# Baking Tools
+# Baking
 
 ## Explode Mesh
 

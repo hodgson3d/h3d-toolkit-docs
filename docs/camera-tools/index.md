@@ -1,4 +1,4 @@
-# Camera Tools
+# Camera
 
 Camera Tools provides a batch-render workflow for multiple cameras.
 

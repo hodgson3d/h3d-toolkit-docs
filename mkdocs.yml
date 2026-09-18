@@ -12,22 +12,22 @@ nav:
       - Interface Overview: getting-started/interface-overview.md
       - Adding Images & GIFs: getting-started/adding-images-and-gifs.md
   - Navigation: navigation-tools/index.md
-  - Lattice Tools: lattice-tools/index.md
-  - Shape Key Tools: shape-key-tools/index.md
-  - UV Tools: uv-tools/index.md
-  - Curve Tools: curve-tools/index.md
-  - Material Tools: material-tools/index.md
-  - Mesh Tools: mesh-tools/index.md
-  - Modeling Tools: modelling-tools/index.md
-  - Modifier Tools: modifier-tools/index.md
-  - Selection Tools: selection-tools/index.md
-  - Mesh Clean Tools: mesh-clean-tools/index.md
-  - Sculpt Tools: sculpt-tools/index.md
-  - Vertex Group Tools: vertex-group-tools/index.md
-  - Baking Tools: baking-tools/index.md
-  - Transfer Tools: transfer-tools/index.md
-  - Camera Tools: camera-tools/index.md
-  - VSE Tools: vse-tools/index.md
+  - Lattice: lattice-tools/index.md
+  - Shape Key: shape-key-tools/index.md
+  - UV: uv-tools/index.md
+  - Curve: curve-tools/index.md
+  - Material: material-tools/index.md
+  - Mesh: mesh-tools/index.md
+  - Modelling: modelling-tools/index.md
+  - Modifier: modifier-tools/index.md
+  - Selection: selection-tools/index.md
+  - Mesh Clean: mesh-clean-tools/index.md
+  - Sculpt: sculpt-tools/index.md
+  - Vertex Group: vertex-group-tools/index.md
+  - Baking: baking-tools/index.md
+  - Transfer: transfer-tools/index.md
+  - Camera: camera-tools/index.md
+  - VSE: vse-tools/index.md
   - Troubleshooting: troubleshooting/faq.md
 
 theme:

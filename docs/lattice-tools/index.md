@@ -1,4 +1,4 @@
-# Lattice Tools
+# Lattice
 
 Tools for quickly creating and managing lattice-based deformation workflows.
 

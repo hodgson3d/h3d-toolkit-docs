@@ -45,4 +45,7 @@ M = Change distribution method
 
 Converts tube or pipe geometry back into a center curve.
 
-[View Tube 2 Curve on Superhive](https://superhivemarket.com/products/tube2curve?search_id=47215017)
+<div style="display: flex; gap: 12px;">
+  <img src="../assets/gifs/curve-tools/tube-2-curve.gif" style="width: calc(50% - 6px);">
+  <img src="../assets/gifs/curve-tools/tube-2-curve-tree" style="width: calc(50% - 6px);">
+</div>

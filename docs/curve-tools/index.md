@@ -18,7 +18,9 @@ Separates curves by loose parts, similar to Blender's mesh **Separate by Loose P
 
 ## Align Curve Direction
 
-Attempts to make curves with a similar flow use the same curve direction.
+Attempts to make curves with a similar flow use the same curve direction. (Works in both edit and object mode)
+
+![Curve Deform Verts](../assets/gifs/curve-tools/align-curve-direction.gif)
 
 ## Smooth Tilt (Gentle)
 

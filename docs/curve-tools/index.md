@@ -32,6 +32,8 @@ You can dynamically increase or decrease the number of curve control points and 
 
 This is especially useful for hard-surface modelling when vertices need to follow a specific curvature.
 
+![Curve Deform Verts](../assets/gifs/curve-tools/curve-deform-verts.gif)
+
 ## Tube 2 Curve
 
 Converts tube or pipe geometry back into a center curve.

@@ -32,7 +32,10 @@ Quickly deform selected vertices along an editable curve with intuitive viewport
 
 You can dynamically increase or decrease the number of curve control points and change how vertices are distributed along the curve.
 
-This is especially useful for hard-surface modelling when vertices need to follow a specific curvature.
+This is especially useful for hard-surface modelling when vertices need to follow a specific curvature. 
+Hotkeys: 
+M = Change distribution method
++ / - = Increase/Decrease curve points
 
 ![Curve Deform Verts](../assets/gifs/curve-tools/curve-deform-verts.gif)
 

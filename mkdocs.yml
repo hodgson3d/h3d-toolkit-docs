@@ -17,14 +17,13 @@ nav:
   - UV: uv-tools/index.md
   - Curve: curve-tools/index.md
   - Material: material-tools/index.md
-  - Mesh: mesh-tools/index.md
+  - Object: mesh-tools/index.md
   - Modelling: modelling-tools/index.md
   - Modifier: modifier-tools/index.md
   - Selection: selection-tools/index.md
   - Mesh Clean: mesh-clean-tools/index.md
   - Sculpt: sculpt-tools/index.md
   - Vertex Group: vertex-group-tools/index.md
-  - Baking: baking-tools/index.md
   - Transfer: transfer-tools/index.md
   - Camera: camera-tools/index.md
   - VSE: vse-tools/index.md

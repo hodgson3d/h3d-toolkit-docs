@@ -17,6 +17,8 @@ The orientation can be matched to either:
 
 Select a lattice and run this operator to select all objects currently affected by that lattice.
 
+![Select_Lattice_Users](../assets/gifs/lattice/select-lattice-users.gif){ .media-center .media-medium }
+
 ## Reset Lattice
 
 Resets the selected lattice back to its default state.

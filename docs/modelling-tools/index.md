@@ -23,7 +23,7 @@ The affected area can be expanded or contracted, making it useful for environmen
 
 Fills a hole with a quad star.
 
-![Delete Intersecting Geo](../assets/gifs/modelling/quad-star-fill.gif){ .media-center .media-medium }
+![Quad_Star_Fill](../assets/gifs/modelling/quad-star-fill.gif){ .media-center .media-medium }
 
 ## Zip Merge
 

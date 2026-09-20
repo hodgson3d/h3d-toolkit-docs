@@ -34,12 +34,18 @@ A more sensitive alternative to Blender's built-in Smooth Tilt operator, designe
 
 Quickly deform selected vertices along an editable curve with intuitive viewport controls.
 
+Before running the operator you can choose between **Smooth** and **Bezier** curve types. Bezier mode displays aligned handles for each control point, allowing the curvature to be shaped more precisely.
+
 You can dynamically increase or decrease the number of curve control points and change how vertices are distributed along the curve.
 
-This is especially useful for hard-surface modelling when vertices need to follow a specific curvature. 
-Hotkeys: 
-M = Change distribution method
-+ / - = Increase/Decrease curve points
+This is especially useful for hard-surface modelling when vertices need to follow a specific curvature.
+
+Hotkeys:
+
+- **M** = Change distribution method
+- **+ / -** = Increase/Decrease curve points
+- **S** = Scale the selected Bezier point handles
+- **R** = Rotate the selected Bezier point handles
 
 ![Curve Deform Verts](../assets/gifs/curve/curve-deform-verts.gif)
 

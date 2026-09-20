@@ -45,7 +45,7 @@ Hotkeys:
 - **M** = Change distribution method
 - **+ / -** = Increase/Decrease curve points
 - **S** = Scale the selected Bezier point handles
-- **R** = Rotate the selected Bezier point handles
+- **R** = Rotate the selected Bezier point handles by moving the mouse around the selected point, similar to Blender's viewport rotation
 
 ![Curve Deform Verts](../assets/gifs/curve/curve-deform-verts.gif)
 

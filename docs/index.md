@@ -39,9 +39,3 @@ Each H3D Toolkit tab has a single documentation page. Use the category names in 
     [:octicons-arrow-right-24: Modelling](modelling-tools/index.md)
 
 </div>
-
-## Adding screenshots and GIFs
-
-Upload visual examples to `docs/assets/images/` or `docs/assets/gifs/`, then reference them from the relevant category page.
-
-[See the image & GIF guide](getting-started/adding-images-and-gifs.md)

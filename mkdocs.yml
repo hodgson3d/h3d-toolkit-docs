@@ -9,8 +9,6 @@ nav:
   - Home: index.md
   - Getting Started:
       - Installation: getting-started/installation.md
-      - Interface Overview: getting-started/interface-overview.md
-      - Adding Images & GIFs: getting-started/adding-images-and-gifs.md
   - Navigation: navigation-tools/index.md
   - Lattice: lattice-tools/index.md
   - Shape Key: shape-key-tools/index.md
@@ -27,7 +25,6 @@ nav:
   - Transfer: transfer-tools/index.md
   - Camera: camera-tools/index.md
   - VSE: vse-tools/index.md
-  - Troubleshooting: troubleshooting/faq.md
 
 theme:
   name: material

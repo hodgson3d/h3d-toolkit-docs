@@ -26,9 +26,7 @@ Upload screenshots to `docs/assets/images/` and GIFs to `docs/assets/gifs/`.
 
 Then insert them into a documentation page with one line, for example:
 
-`![Curve Deform Verts](../assets/gifs/curve-deform-verts.gif)`
-
-See `docs/getting-started/adding-images-and-gifs.md` for examples.
+`![Curve Deform Verts](../assets/gifs/curve/curve-deform-verts.gif)`
 
 ## 4. Preview locally on Windows (optional)
 

@@ -71,4 +71,4 @@ Multi-object UV set utilities for:
 - selecting UV sets by name
 - deleting UV sets by name 
 
-![UV_Sets](../assets/images/uv/uv-sets.webp){ .media-center .media-medium }
+![UV_Sets](../assets/images/uv/uv-sets.png){ .media-center .media-medium }

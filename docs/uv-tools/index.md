@@ -2,12 +2,6 @@
 
 Utilities for UV cleanup, debugging, error detection and fast unwrapping.
 
-## Delete Non-Active UV Set
-
-Removes all UV sets except the currently active UV set.
-
-This is useful after a large UV layout when geometry has accidentally been unwrapped across multiple UV sets and you want to collapse the scene back down to a single active set.
-
 ## Select Objects From UV Selection
 
 A UV debugging utility that lets you quickly isolate and inspect problematic geometry from a UV selection.
@@ -72,3 +66,9 @@ Multi-object UV set utilities for:
 - deleting UV sets by name 
 
 ![UV_Sets](../assets/images/uv/uv-sets.png){ .media-center .media-medium }
+
+## Delete Non-Active UV Set
+
+Removes all UV sets except the currently active UV set.
+
+This is useful after a large UV layout when geometry has accidentally been unwrapped across multiple UV sets and you want to collapse the scene back down to a single active set.

@@ -27,6 +27,8 @@ The operator supports both **Object** and **Component** modes.
 
 When duplicates overlap, the tool aims to select the redundant geometry while leaving one copy unselected, making it possible to immediately delete the problem geometry.
 
+![Mesh_Clean_01](../assets/gifs/mesh-clean/mesh-clean-01.gif){ .media-center .media-medium }
+
 ## Clear Sharp Edges & Normals
 
 Removes imported sharp-edge and custom-normal data, leaving a soft-shaded mesh without custom normals.

@@ -67,3 +67,8 @@ Multi-object UV set utilities for:
 - deleting UV sets
 - setting the active UV set
 - creating UV sets
+- adding UV sets 
+- selecting UV sets by name
+- deleting UV sets by name 
+
+![UV_Sets](../assets/gifs/uv/uv-sets.png){ .media-center .media-medium }

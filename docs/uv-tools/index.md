@@ -8,6 +8,8 @@ A UV debugging utility that lets you quickly isolate and inspect problematic geo
 
 Because visualizing UVs often requires the whole model to be in Edit Mode, this tool helps identify the objects associated with the selected UVs.
 
+![Select_Objects_From_UV_Selection](../assets/gifs/uv/selection-objects-from-uv-selection.gif){ .media-center .media-medium }
+
 ## Select UV Errors
 
 A combined UV error checker that can detect:

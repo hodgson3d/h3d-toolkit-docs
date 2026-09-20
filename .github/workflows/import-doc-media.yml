@@ -1,0 +1,35 @@
+name: Import documentation media
+
+on:
+  push:
+    branches: [docs-media-import]
+    paths:
+      - '.github/workflows/import-doc-media.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout import branch
+        uses: actions/checkout@v7
+        with:
+          ref: docs-media-import
+          fetch-depth: 0
+
+      - name: Rebuild and extract media
+        run: |
+          cat .tmp_media/chunk_*.txt | base64 -d > /tmp/h3d_docs_media.zip
+          unzip -o /tmp/h3d_docs_media.zip -d .
+          rm -rf .tmp_media
+          rm .github/workflows/import-doc-media.yml
+
+      - name: Commit imported media
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Add documentation media assets"
+          git push origin HEAD:docs-media-import

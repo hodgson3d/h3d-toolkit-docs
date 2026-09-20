@@ -11,9 +11,7 @@ The orientation can be matched to either:
 - the active object
 - world space
 
-<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Fit Lattice demonstration">
-  <source src="../assets/videos/lattice/fit-lattice.mp4" type="video/mp4">
-</video>
+![Fit Lattice](../assets/gifs/lattice/fit-lattice.gif){ .media-center .media-medium }
 
 ## Select Lattice Users
 

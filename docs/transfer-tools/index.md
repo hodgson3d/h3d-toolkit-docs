@@ -11,9 +11,7 @@ Shape can be transferred using either:
 - UVs
 - vertex order
 
-<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Transfer Shape demonstration">
-  <source src="../assets/videos/transfer/transfer-shape.mp4" type="video/mp4">
-</video>
+![Transfer Shape](../assets/gifs/transfer/transfer-shape.gif){ .media-center .media-medium }
 
 ## Transfer UVs
 
@@ -29,6 +27,4 @@ UVs can be transferred using:
 
 Select two faces to copy and paste vertex order.
 
-<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Copy and Paste Vertex Order demonstration">
-  <source src="../assets/videos/transfer/vertex-order.mp4" type="video/mp4">
-</video>
+![Copy Paste Vertex Order](../assets/gifs/transfer/vertex-order.gif){ .media-center .media-medium }

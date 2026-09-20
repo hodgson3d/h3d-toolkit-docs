@@ -16,19 +16,13 @@ Creates a Geometry Nodes modifier that deletes geometry intersecting another obj
 
 The affected area can be expanded or contracted, making it useful for environment work where hidden or unnecessary intersecting geometry needs to be culled.
 
-<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Delete Intersecting Geo demonstration">
-  <source src="../assets/videos/modelling/delete-intersecting-geo.mp4" type="video/mp4">
-</video>
+![Delete Intersecting Geo](../assets/gifs/modelling/delete-intersecting-geo.gif){ .media-center .media-medium }
 
 [View Delete Intersecting Geo on Superhive](https://superhivemarket.com/products/delete-intersecting-geo)
 
 ## Quad Star Fill
 
 Fills a hole with a quad star.
-
-<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Quad Star Fill demonstration">
-  <source src="../assets/videos/modelling/quad-star-fill.mp4" type="video/mp4">
-</video>
 
 [View Quad Star Fill on Superhive](https://superhivemarket.com/products/quad-star-fill)
 
@@ -38,9 +32,7 @@ Designed for merging complex geometry when Merge by Distance creates problems, o
 
 A useful example is merging seams together on clothing.
 
-<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Zip Merge demonstration">
-  <source src="../assets/videos/modelling/zip-merge.mp4" type="video/mp4">
-</video>
+![Zip Merge](../assets/gifs/modelling/zip-merge.gif){ .media-center .media-medium }
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 1rem 0;">
   <iframe
@@ -58,6 +50,4 @@ A useful example is merging seams together on clothing.
 
 Extrudes and rotates selected border edges in Blender 5.2+.
 
-<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Extrude Border Edge demonstration">
-  <source src="../assets/videos/modelling/extrude-border-edge.mp4" type="video/mp4">
-</video>
+![Extrude Border Edge](../assets/gifs/modelling/extrude-border-edge.gif){ .media-center .media-medium }

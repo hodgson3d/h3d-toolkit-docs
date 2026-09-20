@@ -18,13 +18,12 @@ The affected area can be expanded or contracted, making it useful for environmen
 
 ![Delete Intersecting Geo](../assets/gifs/modelling/delete-intersecting-geo.gif){ .media-center .media-medium }
 
-[View Delete Intersecting Geo on Superhive](https://superhivemarket.com/products/delete-intersecting-geo)
 
 ## Quad Star Fill
 
 Fills a hole with a quad star.
 
-[View Quad Star Fill on Superhive](https://superhivemarket.com/products/quad-star-fill)
+![Delete Intersecting Geo](../assets/gifs/modelling/quad-star-fill.gif){ .media-center .media-medium }
 
 ## Zip Merge
 
@@ -43,8 +42,6 @@ A useful example is merging seams together on clothing.
     allowfullscreen>
   </iframe>
 </div>
-
-[View Zip Merge on Superhive](https://superhivemarket.com/products/zipmerge)
 
 ## Extrude Border Edge
 

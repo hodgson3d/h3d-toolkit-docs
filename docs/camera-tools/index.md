@@ -4,6 +4,8 @@ Camera Tools provides a batch-render workflow for multiple cameras.
 
 Build a camera list by adding selected cameras or all cameras, reorder them from top to bottom, and double-click a camera to look through it.
 
+![Camera Tools](../assets/images/camera/camera.webp){ .media-center .media-medium }
+
 Each camera can have its own:
 
 - output resolution

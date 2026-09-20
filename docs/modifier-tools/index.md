@@ -13,6 +13,8 @@ The search can be limited to:
 
 Modifiers can also be applied on instances.
 
+![Select By Modifier Type](../assets/images/modifier/select-by-modifier-type.webp){ .media-center .media-medium }
+
 ## Randomize Seeds
 
 Randomizes exposed seed parameters on Geometry Nodes modifiers.

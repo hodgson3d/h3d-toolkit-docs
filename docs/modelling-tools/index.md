@@ -8,17 +8,27 @@ Creates a Geometry Nodes-based radial array modifier.
 
 Rather than relying on instances distributed around a circle, the array is based on rotating geometry around the object's origin.
 
+![Radial Array](../assets/images/modelling/radial-array.webp){ .media-center .media-medium }
+
 ## Delete Intersecting Geo
 
 Creates a Geometry Nodes modifier that deletes geometry intersecting another object.
 
 The affected area can be expanded or contracted, making it useful for environment work where hidden or unnecessary intersecting geometry needs to be culled.
 
+<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Delete Intersecting Geo demonstration">
+  <source src="../assets/videos/modelling/delete-intersecting-geo.mp4" type="video/mp4">
+</video>
+
 [View Delete Intersecting Geo on Superhive](https://superhivemarket.com/products/delete-intersecting-geo)
 
 ## Quad Star Fill
 
 Fills a hole with a quad star.
+
+<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Quad Star Fill demonstration">
+  <source src="../assets/videos/modelling/quad-star-fill.mp4" type="video/mp4">
+</video>
 
 [View Quad Star Fill on Superhive](https://superhivemarket.com/products/quad-star-fill)
 
@@ -27,6 +37,10 @@ Fills a hole with a quad star.
 Designed for merging complex geometry when Merge by Distance creates problems, or when UVs need to be preserved without bridging faces.
 
 A useful example is merging seams together on clothing.
+
+<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Zip Merge demonstration">
+  <source src="../assets/videos/modelling/zip-merge.mp4" type="video/mp4">
+</video>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 1rem 0;">
   <iframe
@@ -43,3 +57,7 @@ A useful example is merging seams together on clothing.
 ## Extrude Border Edge
 
 Extrudes and rotates selected border edges in Blender 5.2+.
+
+<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Extrude Border Edge demonstration">
+  <source src="../assets/videos/modelling/extrude-border-edge.mp4" type="video/mp4">
+</video>

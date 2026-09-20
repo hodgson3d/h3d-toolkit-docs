@@ -2,7 +2,7 @@
 
 Utilities for UV cleanup, debugging, error detection and fast unwrapping.
 
-## Delete Unused UV Sets
+## Delete Non-Active UV Set
 
 Removes all UV sets except the currently active UV set.
 
@@ -35,7 +35,7 @@ The tool can bias seams away from the camera-facing side and aims to keep the re
 
 Cuts seams and unfolds cylinder-like topology.
 
-It can also hide the seam based on the current camera/view angle when the tool is run.
+The main quad body is straightened into a clean rectangular UV grid while the caps are left untouched. It can also hide the seam based on the current camera/view angle when the tool is run.
 
 ## Grid Layout
 

@@ -31,11 +31,19 @@ Automatically cuts seams and unwraps cube-like topology.
 
 The tool can bias seams away from the camera-facing side and aims to keep the result as a single UV island. It also detects whether the topology is manifold or non-manifold and adjusts seam cutting accordingly.
 
+<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Box Unwrap demonstration">
+  <source src="../assets/videos/uv/box-unwrap.mp4" type="video/mp4">
+</video>
+
 ## Cylinder Unwrap
 
 Cuts seams and unfolds cylinder-like topology.
 
 The main quad body is straightened into a clean rectangular UV grid while the caps are left untouched. It can also hide the seam based on the current camera/view angle when the tool is run.
+
+<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Cylinder Unwrap demonstration">
+  <source src="../assets/videos/uv/cylinder-unwrap.mp4" type="video/mp4">
+</video>
 
 ## Grid Layout
 
@@ -44,6 +52,18 @@ Preserves repeating-object UVs and arranges them into a clean layout.
 It creates vertical columns of stacked UVs, then moves horizontally to begin another column when capacity is reached. If the objects exceed one UDIM tile, layout continues into the next UDIM.
 
 Works with both object and group selections.
+
+**Object layout**
+
+<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Grid Layout object demonstration">
+  <source src="../assets/videos/uv/grid-layout-object.mp4" type="video/mp4">
+</video>
+
+**Group layout**
+
+<video class="media-center media-medium" autoplay loop muted playsinline controls aria-label="Grid Layout group demonstration">
+  <source src="../assets/videos/uv/grid-layout-group.mp4" type="video/mp4">
+</video>
 
 [View Grid Layout on Superhive](https://superhivemarket.com/products/stack-unstack-uvs-udims-supported)
 

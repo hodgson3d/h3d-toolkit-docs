@@ -67,7 +67,7 @@ Multi-object UV set utilities for:
 
 ![UV_Sets](../assets/images/uv/uv-sets.png){ .media-center .media-medium }
 
-## Delete Non-Active UV Set
+## Delete Non-Active UV Sets
 
 Removes all UV sets except the currently active UV set.
 

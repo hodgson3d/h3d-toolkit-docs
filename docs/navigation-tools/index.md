@@ -12,7 +12,7 @@ A useful personal mapping is **Ctrl + Shift + Mouse Wheel**.
 
 ## VP Planar Move
 
-Automatically locks the local axis facing the camera and moves objects along the other two axes.
+Automatically locks the local axis facing the camera and moves objects along the other two axes. Hold G for 0.3 seconds to activate.
 
 The tool supports multiple selected objects and is designed to be assigned to a hotkey for quick access.
 

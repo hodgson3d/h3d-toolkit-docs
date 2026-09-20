@@ -30,6 +30,8 @@ For each selected mesh object, the tool fits an oriented bounding box to the geo
 
 It can also sample nearest neighbours to encourage consistent axis orientation across many related objects, such as roof tiles.
 
+![Rebuild_Local_Axis](../assets/gifs/object/rebuild-local-axis.gif){ .media-center .media-medium }
+
 ## Set Origin
 
 Uses selected mesh components to position and orient the object's origin.

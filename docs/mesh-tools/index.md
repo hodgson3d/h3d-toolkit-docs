@@ -34,11 +34,9 @@ It can also sample nearest neighbours to encourage consistent axis orientation a
 
 ## Set Origin
 
-Uses selected mesh components to position and orient the object's origin.
+Uses selected mesh components to position and orient the object's origin (multiple objects supported).
 
 The orientation can be aligned to either world space or the selected component normals. When edges are selected, the origin's X axis is aligned exactly to the selected edge direction while the surface normal is derived from the linked faces. For a single selected vertex, the tool builds the orientation from the surrounding one-ring faces and directly connected edges. On quad topology it identifies the true opposite edge pairs around the vertex, follows the local edge-loop direction, and preserves that tangent exactly while fitting the surface normal around it.
-
-![Set Origin](../assets/images/object/set-origin.png){ .media-center .media-medium }
 
 Modifier-click behavior:
 
@@ -46,4 +44,4 @@ Modifier-click behavior:
 - **Ctrl + Click** = rotate the origin only
 - **Alt + Click** = move the origin only
 
-The tool supports multiple selected objects.
+![Set_Origin](../assets/gifs/object/set-origin-03.gif){ .media-center .media-medium }

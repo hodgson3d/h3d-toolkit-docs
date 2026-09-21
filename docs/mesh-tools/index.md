@@ -36,7 +36,7 @@ It can also sample nearest neighbours to encourage consistent axis orientation a
 
 Uses selected mesh components to position and orient the object's origin.
 
-The orientation can be aligned to either world space or the selected component normals. When edges are selected, the origin's X axis is aligned exactly to the selected edge direction while the surface normal is derived from the linked faces.
+The orientation can be aligned to either world space or the selected component normals. When edges are selected, the origin's X axis is aligned exactly to the selected edge direction while the surface normal is derived from the linked faces. For a single selected vertex, the tool now builds the orientation from the surrounding one-ring faces and directly connected edges so the origin follows the local surface and edge flow more consistently.
 
 Modifier-click behavior:
 

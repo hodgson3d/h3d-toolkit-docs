@@ -15,7 +15,7 @@ nav:
   - UV: uv-tools/index.md
   - Curve: curve-tools/index.md
   - Material: material-tools/index.md
-  - Object: mesh-tools/index.md
+  - Object: object-tools/index.md
   - Modelling: modelling-tools/index.md
   - Modifier: modifier-tools/index.md
   - Selection: selection-tools/index.md

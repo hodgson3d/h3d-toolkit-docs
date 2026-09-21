@@ -38,6 +38,8 @@ Uses selected mesh components to position and orient the object's origin.
 
 The orientation can be aligned to either world space or the selected component normals. When edges are selected, the origin's X axis is aligned exactly to the selected edge direction while the surface normal is derived from the linked faces. For a single selected vertex, the tool builds the orientation from the surrounding one-ring faces and directly connected edges. On quad topology it identifies the true opposite edge pairs around the vertex, follows the local edge-loop direction, and preserves that tangent exactly while fitting the surface normal around it.
 
+![Set Origin](../assets/images/object/set-origin.png){ .media-center .media-medium }
+
 Modifier-click behavior:
 
 - **Click** = move and rotate the origin

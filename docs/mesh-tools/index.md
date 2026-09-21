@@ -38,4 +38,10 @@ Uses selected mesh components to position and orient the object's origin.
 
 The orientation can be aligned to either world space or the selected component normals. When edges are selected, the origin's X axis is aligned exactly to the selected edge direction while the surface normal is derived from the linked faces.
 
+Modifier-click behavior:
+
+- **Click** = move and rotate the origin
+- **Ctrl + Click** = rotate the origin only
+- **Alt + Click** = move the origin only
+
 The tool supports multiple selected objects.

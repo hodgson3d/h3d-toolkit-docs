@@ -20,7 +20,7 @@ Spreads objects along either a line or a grid.
 
 This is useful for organizing kitbash libraries or laying out large object collections for inspection.
 
-![Spread Objects](../assets/gifs/object/spread-objects.gif){ .media-center .media-medium }
+![Spread_OBjects](../assets/gifs/object/spread-objects.gif)
 
 ## Rebuild Local Axis
 

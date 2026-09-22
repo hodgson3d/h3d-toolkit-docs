@@ -30,6 +30,10 @@ Attempts to make curves with a similar flow use the same curve direction. (Works
 
 A more sensitive alternative to Blender's built-in Smooth Tilt operator, designed to provide finer control over softening out the twists in curves.
 
+![Smooth_Tilt_Gentle](../assets/images/curve/smooth-tilt-gentle.png)
+
+![Smooth_Tilt_Gentle](../assets/gifs/curve/smooth-tilt-gentle.gif)
+
 ## Curve Deform Verts
 
 Quickly deform selected vertices along an editable curve with intuitive viewport controls.

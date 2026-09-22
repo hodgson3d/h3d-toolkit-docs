@@ -11,7 +11,7 @@ Shape can be transferred using either:
 - UVs
 - vertex order
 
-![Transfer_UVs](../assets/images/transfer/transfer-uvs.png){ .media-center .media-medium }
+![Transfer_UVs](../assets/images/transfer/transfer-shape.png){ .media-center .media-medium }
 
 ![Transfer Shape](../assets/gifs/transfer/transfer-shape.gif){ .media-center .media-medium }
 
@@ -24,6 +24,8 @@ UVs can be transferred using:
 - vertex order
 - closest component
 - interpolated faces
+
+![Transfer_UVs](../assets/images/transfer/transfer-uvs.png){ .media-center .media-medium }
 
 ## Copy/Paste Vertex Order
 

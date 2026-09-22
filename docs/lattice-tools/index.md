@@ -4,7 +4,7 @@ Tools for quickly creating and managing lattice-based deformation workflows.
 
 ## Fit Lattice
 
-Fits and orients a lattice around selected objects, or around selected components while in Edit Mode.
+Fits a lattice around selected objects or components, aligning it to their local (active objects) orientation.
 
 The orientation can be matched to either:
 

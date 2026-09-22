@@ -10,6 +10,7 @@ Shape can be transferred using either:
 
 - UVs
 - vertex order
+
 ![Transfer_UVs](../assets/images/transfer/transfer-uvs.png){ .media-center .media-medium }
 
 ![Transfer Shape](../assets/gifs/transfer/transfer-shape.gif){ .media-center .media-medium }

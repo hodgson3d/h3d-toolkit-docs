@@ -55,9 +55,6 @@ Hotkeys:
 
 ## Tube 2 Curve
 
-Converts tube or pipe geometry back into a center curve.
+Converts tube or pipe geometry back into a center curve. Works on even very complex geometry such as trees and branches.
 
-<div style="display: flex; gap: 12px;">
-  <img src="../assets/gifs/curve/tube-2-curve.gif" style="width: calc(50% - 6px);">
-  <img src="../assets/gifs/curve/tube-2-curve-tree.gif" style="width: calc(50% - 6px);">
-</div>
+![Tube_2_Curve](../assets/gifs/curve/tube-2-curve.gif)

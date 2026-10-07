@@ -48,3 +48,23 @@ A useful example is merging seams together on clothing.
 Extrudes and rotates selected border edges in Blender 5.2+.
 
 ![Extrude Border Edge](../assets/gifs/modelling/extrude-border-edge.gif){ .media-center .media-medium }
+
+## Curve Deform Verts
+
+Quickly deform selected vertices along an editable curve with intuitive viewport controls.
+
+Before running the operator you can choose between **Spline** and **Bezier** curve types. Bezier mode initializes its handles from the selected vertex chain so it follows the existing curvature as closely as possible at any control-point count. The endpoint handles are aligned to the original vertex-chain tangents, while the remaining handles are fitted against the source curvature. The handles can then be adjusted for more precise shaping.
+
+You can dynamically increase or decrease the number of curve control points and change how vertices are distributed along the curve.
+
+This is especially useful for hard-surface modelling when vertices need to follow a specific curvature.
+
+Hotkeys:
+
+- **M** = Change distribution method
+- **+ / -** = Increase/Decrease curve points
+- **S** = Scale the selected Bezier point handles
+- **R** = Rotate the selected Bezier point handles by moving the mouse around the selected point, similar to Blender's viewport rotation
+
+![Curve Deform Verts](../assets/gifs/curve/curve-deform-verts.gif)
+

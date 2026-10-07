@@ -37,4 +37,4 @@ A more sensitive alternative to Blender's built-in Smooth Tilt operator, designe
 
 Converts tube or pipe geometry back into a center curve. Works on even very complex geometry such as trees and branches.
 
-![Tube_2_Curve](../assets/gifs/curve/tube-2-curve.gif)
+![Tube_2_Curve](../assets/gifs/curve/tube-2-curveB.gif)

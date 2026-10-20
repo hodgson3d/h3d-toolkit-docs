@@ -20,4 +20,6 @@ Automatically locks the axis facing the camera and moves objects along the other
 
 The shortcut and delay are adjustable under **H3D Toolkit > Navigation Hotkeys** in Blender's Add-on Preferences. The tap/hold shortcuts work in Object Mode and Mesh Edit Mode.
 
+Each of the four navigation hotkeys (**VP Planar Move**, **VP Axis Rotate**, **VP Step Rotate +45°**, and **VP Step Rotate -45°**) also has an **enable/disable checkbox** in Add-on Preferences. Unchecking it removes that hotkey binding without clearing its assigned key, modifiers, or hold delay. Check it again to restore the saved binding. All shortcuts are enabled by default.
+
 ![VP Planar Move](../assets/gifs/navigation/vp-planar-move.gif){ .media-center .media-medium }

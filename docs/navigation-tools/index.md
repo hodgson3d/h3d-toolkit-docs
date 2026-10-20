@@ -4,22 +4,20 @@ Viewport-aware transform tools designed for fast object manipulation.
 
 ## VP Step Rotate 45/-45
 
-Assign a hotkey to quickly rotate selected objects by 45 degrees around the local axis that best aligns with the camera.
-
-A useful personal mapping is **Ctrl + Shift + Mouse Wheel**.
+Rotate selected objects by 45 degrees around the local axis best aligned with the camera. Optional shortcuts for **+45°** and **-45°** can be assigned under **Edit > Preferences > Add-ons > H3D Toolkit > Navigation Hotkeys** (for example, Ctrl + Shift + Mouse Wheel Up/Down).
 
 ![VP Step Rotate](../assets/gifs/navigation/vp-step-rotate.gif){ .media-center .media-medium }
 
 ## VP Axis Rotate
 
-Hold **R** for about **0.3 seconds** to rotate around whichever **local X, Y or Z axis points most toward the viewport**.
+Hold the assigned Rotate shortcut (**R** by default) to rotate around whichever **local X, Y or Z axis points most toward the viewport**.
 
-A quick tap of **R** still starts Blender's normal Rotate tool. When the hold gesture triggers, H3D selects the best-facing local axis automatically and hands off to Blender's native constrained Rotate transform, so snapping, numeric input and Shift precision continue to work normally.
+A quick tap still starts Blender's normal Rotate tool. When the configured hold delay elapses (**0.30 seconds** by default), H3D selects the best-facing local axis and hands off to Blender's native constrained Rotate transform, so snapping, numeric input and Shift precision continue to work normally. Set the shortcut and delay under **H3D Toolkit > Navigation Hotkeys** in Blender's Add-on Preferences.
 
 ## VP Planar Move
 
-Automatically locks the local axis facing the camera and moves objects along the other two axes. Hold G for 0.3 seconds to activate.
+Automatically locks the axis facing the camera and moves objects along the other two axes. Hold the assigned Move shortcut (**G** by default) for the configured duration (**0.30 seconds** by default) to activate. A quick tap starts Blender's normal Move tool.
 
-The tool supports multiple selected objects and is designed to be assigned to a hotkey for quick access.
+The shortcut and delay are adjustable under **H3D Toolkit > Navigation Hotkeys** in Blender's Add-on Preferences. The tap/hold shortcuts work in Object Mode and Mesh Edit Mode.
 
 ![VP Planar Move](../assets/gifs/navigation/vp-planar-move.gif){ .media-center .media-medium }

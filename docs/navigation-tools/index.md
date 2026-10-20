@@ -4,7 +4,7 @@ Viewport-aware transform tools designed for fast object manipulation.
 
 ## VP Step Rotate 45/-45
 
-Rotate selected objects by 45 degrees around the local axis best aligned with the camera. Optional shortcuts for **+45°** and **-45°** can be assigned under **Edit > Preferences > Add-ons > H3D Toolkit > Navigation Hotkeys** (for example, Ctrl + Shift + Mouse Wheel Up/Down).
+Rotate selected objects by 45 degrees around the local axis best aligned with the camera. By default, **Ctrl + Shift + Mouse Wheel Up** rotates **+45°**, and **Ctrl + Shift + Mouse Wheel Down** rotates **-45°** (Object Mode). You can change or disable these shortcuts under **Edit > Preferences > Add-ons > H3D Toolkit > Navigation Hotkeys**.
 
 ![VP Step Rotate](../assets/gifs/navigation/vp-step-rotate.gif){ .media-center .media-medium }
 

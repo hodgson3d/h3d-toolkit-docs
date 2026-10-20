@@ -45,3 +45,15 @@ Modifier-click behavior:
 - **Alt + Click** = move the origin only
 
 ![Set_Origin](../assets/gifs/object/set-origin-03.gif){ .media-center .media-medium }
+
+## Duplicate Source to Selected
+
+Copies the **active (last-selected) source object** to the world location, rotation and scale of every other selected object. You can use a single mesh or curve, or an Empty with a full child hierarchy.
+
+In **Object Mode**, select the destination objects first, then **Shift-select the source last** so it is active. Run **Duplicate Source to Selected** and choose a duplication method:
+
+- **Linked Duplicates** — separate objects sharing the source's mesh/curve datablocks
+- **Independent Copies** — separate objects with copied mesh/curve datablocks
+- **Collection Instances** — lightweight instances of a single hidden source template collection
+
+Enable **Include Children** to reproduce the entire source hierarchy, and **Select Results** to select the new copies after placement. The destination objects themselves are left unchanged.

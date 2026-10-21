@@ -72,7 +72,7 @@ Multi-object UV set utilities for:
 
 ## Transfer UV Set
 
-Under **UV → UV Sets**, enter the **Source** UV Set and **Target** UV Set names, then click **Transfer**. This copies the complete UV layout from the source to the target on every selected mesh, including seams and UV islands.
+Under **UV → UV Sets**, enter the **Source** UV Set and **Target** UV Set names, then click **Transfer**. This copies the complete per-face-corner UV layout from the source to the target on every selected mesh, preserving island shapes and boundaries. The mesh's edge seam flags are not changed.
 
 An existing target UV set is overwritten. If the target does not exist, it is created automatically (provided the mesh has room for another UV set). Meshes without the named source are skipped. Linked objects sharing the same mesh data are processed only once.
 

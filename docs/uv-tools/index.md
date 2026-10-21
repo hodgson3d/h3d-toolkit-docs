@@ -66,8 +66,17 @@ Multi-object UV set utilities for:
 - adding UV sets 
 - selecting UV sets by name
 - deleting UV sets by name 
+- transferring UV coordinates from one named UV set to another
 
 ![UV_Sets](../assets/images/uv/uv-sets.png){ .media-center .media-medium }
+
+## Transfer UV Set
+
+Under **UV → UV Sets**, enter the **Source** UV Set and **Target** UV Set names, then click **Transfer**. This copies the complete UV layout from the source to the target on every selected mesh, including seams and UV islands.
+
+An existing target UV set is overwritten. If the target does not exist, it is created automatically (provided the mesh has room for another UV set). Meshes without the named source are skipped. Linked objects sharing the same mesh data are processed only once.
+
+Works in Object Mode and Mesh Edit Mode.
 
 ## Delete Non-Active UV Sets
 

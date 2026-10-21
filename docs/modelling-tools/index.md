@@ -19,6 +19,12 @@ The affected area can be expanded or contracted, making it useful for environmen
 ![Delete Intersecting Geo](../assets/gifs/modelling/delete-intersecting-geo.gif){ .media-center .media-medium }
 
 
+## Bend
+
+Adds the bundled **Bend** Geometry Nodes modifier to selected geometry objects from **H3D Toolkit → Modelling → Modifiers**.
+
+In Object Mode, select one or more mesh or curve objects and click **Bend**. The toolkit loads the node group from its included asset the first time you use it. If a node group named **Bend** already exists in the current Blender file, that group is reused instead of appending a duplicate. Running the operator again on an object that already uses the Bend node group will not add another modifier.
+
 ## Quad Star Fill
 
 Fills a hole with a quad star.

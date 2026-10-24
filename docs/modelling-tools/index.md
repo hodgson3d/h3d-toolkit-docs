@@ -25,6 +25,8 @@ Adds the bundled **Bend** Geometry Nodes modifier to selected geometry objects f
 
 In Object Mode, select one or more mesh or curve objects and click **Bend**. The toolkit loads the node group from its included asset the first time you use it. If a node group named **Bend** already exists in the current Blender file, that group is reused instead of appending a duplicate. Running the operator again on an object that already uses the Bend node group will not add another modifier.
 
+![Delete Intersecting Geo](../assets/gifs/modelling/bend.gif){ .media-center .media-medium }
+
 ## Quad Star Fill
 
 Fills a hole with a quad star.

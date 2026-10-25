@@ -14,6 +14,8 @@ Hold the assigned Rotate shortcut (**R** by default) to rotate around whichever 
 
 A quick tap still starts Blender's normal Rotate tool. When the configured hold delay elapses (**0.30 seconds** by default), H3D selects the best-facing local axis and hands off to Blender's native constrained Rotate transform, so snapping, numeric input and Shift precision continue to work normally. Set the shortcut and delay under **H3D Toolkit > Navigation Hotkeys** in Blender's Add-on Preferences.
 
+![VP axis_rotate](../assets/gifs/navigation/vp-axis-rotate.gif){ .media-center .media-medium }
+
 ## VP Planar Move
 
 Automatically locks the axis facing the camera and moves objects along the other two axes. Hold the assigned Move shortcut (**G** by default) for the configured duration (**0.30 seconds** by default) to activate. A quick tap starts Blender's normal Move tool.

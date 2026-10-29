@@ -62,17 +62,9 @@ Enable **Include Children** to reproduce the entire source hierarchy, and **Sele
 
 ## OBB Match
 
-Automatically matches the position, rotation and scale of one mesh to another using **oriented bounding boxes (OBBs)** derived from their geometry.
+Automatically matches the position, rotation and scale of one mesh to another using oriented bounding boxes (OBBs) derived from their geometry.
 
 Unlike matching Blender's ordinary local bounding boxes, OBB Match searches for tight-fitting orientations based on the mesh shape. This allows it to align objects even when their rotations have been applied or their local axes differ.
-
-### How to use
-
-1. In **Object Mode**, select the mesh you want to transform.
-2. **Shift-select the reference mesh last**, making it the active object.
-3. Open **H3D Toolkit → Object → OBB Match** and run the operator.
-
-The **active object is the reference** and remains unchanged. The other selected mesh is moved, rotated and scaled so that its calculated OBB aligns with the reference mesh's OBB, including their centres.
 
 ![OBB-match](../assets/gifs/obb-match.gif){ .media-center .media-medium }
 

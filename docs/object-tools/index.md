@@ -74,5 +74,5 @@ Unlike matching Blender's ordinary local bounding boxes, OBB Match searches for 
 
 The **active object is the reference** and remains unchanged. The other selected mesh is moved, rotated and scaled so that its calculated OBB aligns with the reference mesh's OBB, including their centres.
 
-
+![OBB-match](../assets/gifs/obb-match.gif){ .media-center .media-medium }
 

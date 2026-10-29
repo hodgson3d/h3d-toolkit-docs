@@ -59,3 +59,25 @@ In **Object Mode**, select the destination objects first, then **Shift-select th
 Enable **Include Children** to reproduce the entire source hierarchy, and **Select Results** to select the new copies after placement. The destination objects themselves are left unchanged.
 
 ![Duplicate-source-to-selected](../assets/gifs/object/duplicate-source-to-selected.gif){ .media-center .media-medium }
+
+## OBB Match
+
+Automatically matches the position, rotation and scale of one mesh to another using **oriented bounding boxes (OBBs)** derived from their geometry.
+
+Unlike matching Blender's ordinary local bounding boxes, OBB Match searches for tight-fitting orientations based on the mesh shape. This allows it to align objects even when their rotations have been applied or their local axes differ.
+
+### How to use
+
+1. In **Object Mode**, select the mesh you want to transform.
+2. **Shift-select the reference mesh last**, making it the active object.
+3. Open **H3D Toolkit → Object → OBB Match** and run the operator.
+
+The **active object is the reference** and remains unchanged. The other selected mesh is moved, rotated and scaled so that its calculated OBB aligns with the reference mesh's OBB, including their centres.
+
+### Scaling
+
+- **Non-Uniform Scale (default)** — independently adjusts the three dimensions for the closest bounding-box match; may stretch the source object.
+- **Uniform Scale** — preserves the source object's proportions, although its bounds may not match the reference exactly.
+
+!!! note
+    OBB Match aligns bounding boxes, **not individual vertices or surfaces**. It works best on hard-surface meshes with clear geometric directions. Symmetrical or organic forms can have multiple equally plausible orientations, and the computed OBB is an approximation rather than a guaranteed mathematical minimum.

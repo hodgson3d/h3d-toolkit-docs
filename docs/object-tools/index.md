@@ -57,3 +57,5 @@ In **Object Mode**, select the destination objects first, then **Shift-select th
 - **Collection Instances** — lightweight instances of a single hidden source template collection
 
 Enable **Include Children** to reproduce the entire source hierarchy, and **Select Results** to select the new copies after placement. The destination objects themselves are left unchanged.
+
+![Duplicate-source-to-selected](../assets/gifs/object/duplicate-source-to-selected.gif){ .media-center .media-medium }
